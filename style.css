@@ -159,3 +159,12 @@ body {
     border: 1px solid #ccc;  
   }
 }
+.shop{
+  transition-duration: 5s;
+}
+.shop:hover{
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2) ;
+  -moz-transform: scale(1.2);
+  z-index: 0;
+}
