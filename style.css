@@ -1,4 +1,5 @@
 .calo{
+  background-image: url(https://storage.pixteller.com/designs/designs-images/2019-03-27/05/simple-background-backgrounds-passion-simple-1-5c9b95c3a34f9.png);
     height: 100vh;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -17,11 +18,33 @@
   }
   
   .price {
-    color: grey;
+    color: red;
     font-size: 22px;
   }
   
-  .btn {
+  .btn1{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  .btn2{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  .btn3{
     border: none;
     outline: 0;
     padding: 12px;
