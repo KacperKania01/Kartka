@@ -1,5 +1,4 @@
 .calo{
-  background-image: url(https://storage.pixteller.com/designs/designs-images/2019-03-27/05/simple-background-backgrounds-passion-simple-1-5c9b95c3a34f9.png);
     height: 100vh;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -15,6 +14,7 @@
     text-align: center;
     font-family: arial;
     grid-area: a;
+    background: white;
   }
   
   .price {
@@ -167,4 +167,18 @@ body {
   -webkit-transform: scale(1.2) ;
   -moz-transform: scale(1.2);
   z-index: 0;
+  -webkit-filter: saturate(100%);
+}
+@media only screen and (max-width:900px){
+  .calo{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 3fr 3fr 3fr;
+    grid-template-areas: 
+    "d"
+    "a"
+    "b"
+    "c";
+}
 }
