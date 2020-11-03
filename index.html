@@ -57,6 +57,6 @@
             <p><button class="btn3"><a class="dodano3">Dodaj do koszyka!</a></button></p>
             </div>
     </div>
-    <script src="java.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
